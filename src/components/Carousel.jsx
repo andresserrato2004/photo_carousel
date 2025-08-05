@@ -255,7 +255,7 @@ const Carousel = ({ graduates }) => {
 
   return (
     <div style={containerStyle}>
-      <h1 style={titleStyle}>Promoción 2030-I</h1>
+      <h1 style={titleStyle}>Promoción 2029-II</h1>
       
       <div style={carouselContainerStyle}>
         {/* Foto -2 (extrema izquierda) */}
