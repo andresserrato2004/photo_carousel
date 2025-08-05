@@ -17,7 +17,7 @@ const Carousel = ({ graduates }) => {
           setIsTransitioning(false);
         }, 150);
       }
-    }, 1000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [graduates, graduates?.length, isTransitioning]);
