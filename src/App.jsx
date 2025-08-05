@@ -28,7 +28,7 @@ function App() {
 
         // Si no tiene foto, reintentar en 30s
         if (!data.hasPhoto) {
-          setTimeout(() => checkPhoto(id), 120000);
+          setTimeout(() => checkPhoto(id), 12000000000);
         }
       }
     } catch (error) {
